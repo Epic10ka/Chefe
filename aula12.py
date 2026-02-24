@@ -49,7 +49,6 @@ if name == 'Lucas' or name == 'Epic':
             print('—='*15)
             from random import randint
             num = randint(0,5)
-            print(num)
             guess_q = int(input('Digite um numero de 0 a 5: '))
             if guess_q == num:
                 print(f'\033[1;32mPARABÉNS\033[m, você acertou! O número era \033[4;36m{num}\033[m')
@@ -67,7 +66,7 @@ hora = datetime.now().hour
 print()
 if 6 <= hora < 12:
     print(f'Tenha uma ótima manhã, {name}')
-elif 12 >= hora < 18:
+elif 12 <= hora < 18:
     print(f'Tenha uma ótima tarde, {name}')
 else:
-    print(f'Tenha um a ótima noite, {name}')
+    print(f'Tenha uma ótima noite, {name}')
