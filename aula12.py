@@ -67,7 +67,7 @@ hora = datetime.now().hour
 print()
 if 6 <= hora < 12:
     print(f'Tenha uma ótima manhã, {name}')
-elif 12 >= hora < 18:
+elif 12 <= hora < 18:
     print(f'Tenha uma ótima tarde, {name}')
 else:
-    print(f'Tenha um a ótima noite, {name}')
+    print(f'Tenha uma ótima noite, {name}')
