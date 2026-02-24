@@ -1,2 +1,2 @@
-# Chefe
-Procjet made to practice and to have fun with my girlfriend
+Made for entertainment purposes. Just to laugh with my girlfirend and my mom.
+And obviously, to practice my basic logics
